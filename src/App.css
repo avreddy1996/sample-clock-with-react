@@ -1,0 +1,63 @@
+.clock-toggle-button{
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    background: darkcyan;
+    border: 2px solid green;
+    border-radius: 100rem;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.clock{
+    display: flex;
+    justify-content: center;
+}
+.clock h1{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    background: lightblue;
+    justify-content: center;
+    margin: 0;
+}
+.clock-background{
+    width : 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: lightblue;
+    position: relative;
+}
+.hours-hand{
+    width: 60px;
+    height: 3px;
+    border-radius: 3px;
+    background: #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: left;
+}
+.minutes-hand{
+    width: 70px;
+    height: 2px;
+    border-radius: 2px;
+    background: #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: left;
+}
+.seconds-hand{
+    width: 80px;
+    height: 1px;
+    background: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: left;
+}
